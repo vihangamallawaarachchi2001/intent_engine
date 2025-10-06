@@ -1,0 +1,25 @@
+[1.912s] Invoking command in '/home/vk/ros2_ws/src/intent_engine': PYTHONPATH=/home/vk/ros2_ws/src/intent_engine/build/intent_engine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/intent_engine build --build-base /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build install --record /home/vk/ros2_ws/src/intent_engine/build/intent_engine/install.log --single-version-externally-managed install_data
+[2.684s] running egg_info
+[2.685s] writing build/intent_engine/intent_engine.egg-info/PKG-INFO
+[2.686s] writing dependency_links to build/intent_engine/intent_engine.egg-info/dependency_links.txt
+[2.686s] writing entry points to build/intent_engine/intent_engine.egg-info/entry_points.txt
+[2.687s] writing requirements to build/intent_engine/intent_engine.egg-info/requires.txt
+[2.687s] writing top-level names to build/intent_engine/intent_engine.egg-info/top_level.txt
+[2.694s] reading manifest file 'build/intent_engine/intent_engine.egg-info/SOURCES.txt'
+[2.696s] writing manifest file 'build/intent_engine/intent_engine.egg-info/SOURCES.txt'
+[2.697s] running build
+[2.697s] running build_py
+[2.697s] copying intent_engine/cli.py -> /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine
+[2.698s] running install
+[2.699s] running install_lib
+[2.702s] copying /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine/cli.py -> /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine
+[2.703s] byte-compiling /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine/cli.py to cli.cpython-310.pyc
+[2.705s] running install_data
+[2.705s] running install_egg_info
+[2.710s] removing '/home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine-0.1.0-py3.10.egg-info' (and everything under it)
+[2.710s] Copying build/intent_engine/intent_engine.egg-info to /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine-0.1.0-py3.10.egg-info
+[2.713s] running install_scripts
+[2.773s] Installing intent_cli script to /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/intent_engine
+[2.774s] Installing intent_engine_node script to /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/intent_engine
+[2.775s] writing list of installed files to '/home/vk/ros2_ws/src/intent_engine/build/intent_engine/install.log'
+[2.837s] Invoked command in '/home/vk/ros2_ws/src/intent_engine' returned '0': PYTHONPATH=/home/vk/ros2_ws/src/intent_engine/build/intent_engine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/intent_engine build --build-base /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build install --record /home/vk/ros2_ws/src/intent_engine/build/intent_engine/install.log --single-version-externally-managed install_data
