@@ -1,0 +1,46 @@
+[1.389s] Invoking command in '/home/vk/ros2_ws/src/intent_engine': PYTHONPATH=/home/vk/ros2_ws/src/intent_engine/build/intent_engine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/intent_engine build --build-base /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build install --record /home/vk/ros2_ws/src/intent_engine/build/intent_engine/install.log --single-version-externally-managed install_data
+[1.935s] running egg_info
+[1.938s] creating build/intent_engine/intent_engine.egg-info
+[1.939s] writing build/intent_engine/intent_engine.egg-info/PKG-INFO
+[1.940s] writing dependency_links to build/intent_engine/intent_engine.egg-info/dependency_links.txt
+[1.940s] writing entry points to build/intent_engine/intent_engine.egg-info/entry_points.txt
+[1.941s] writing requirements to build/intent_engine/intent_engine.egg-info/requires.txt
+[1.941s] writing top-level names to build/intent_engine/intent_engine.egg-info/top_level.txt
+[1.942s] writing manifest file 'build/intent_engine/intent_engine.egg-info/SOURCES.txt'
+[1.945s] reading manifest file 'build/intent_engine/intent_engine.egg-info/SOURCES.txt'
+[1.946s] writing manifest file 'build/intent_engine/intent_engine.egg-info/SOURCES.txt'
+[1.947s] running build
+[1.947s] running build_py
+[1.948s] creating /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build
+[1.950s] creating /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib
+[1.950s] creating /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine
+[1.951s] copying intent_engine/intent_node.py -> /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine
+[1.952s] copying intent_engine/__init__.py -> /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine
+[1.952s] copying intent_engine/blockchain_logger.py -> /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine
+[1.954s] copying intent_engine/arbitration.py -> /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine
+[1.954s] copying intent_engine/cli.py -> /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine
+[1.955s] running install
+[1.957s] running install_lib
+[1.957s] creating /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine
+[1.959s] copying /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine/intent_node.py -> /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine
+[1.959s] copying /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine/__init__.py -> /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine
+[1.960s] copying /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine/blockchain_logger.py -> /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine
+[1.961s] copying /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine/arbitration.py -> /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine
+[1.963s] copying /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build/lib/intent_engine/cli.py -> /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine
+[1.965s] byte-compiling /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine/intent_node.py to intent_node.cpython-310.pyc
+[1.965s] byte-compiling /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine/__init__.py to __init__.cpython-310.pyc
+[1.965s] byte-compiling /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine/blockchain_logger.py to blockchain_logger.cpython-310.pyc
+[1.965s] byte-compiling /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine/arbitration.py to arbitration.cpython-310.pyc
+[1.968s] byte-compiling /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine/cli.py to cli.cpython-310.pyc
+[1.968s] running install_data
+[1.968s] creating /home/vk/ros2_ws/src/intent_engine/install/intent_engine/share/ament_index
+[1.968s] creating /home/vk/ros2_ws/src/intent_engine/install/intent_engine/share/ament_index/resource_index
+[1.969s] creating /home/vk/ros2_ws/src/intent_engine/install/intent_engine/share/ament_index/resource_index/packages
+[1.969s] copying resource/intent_engine -> /home/vk/ros2_ws/src/intent_engine/install/intent_engine/share/ament_index/resource_index/packages
+[1.969s] copying package.xml -> /home/vk/ros2_ws/src/intent_engine/install/intent_engine/share/intent_engine
+[1.969s] running install_egg_info
+[1.969s] Copying build/intent_engine/intent_engine.egg-info to /home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages/intent_engine-0.1.0-py3.10.egg-info
+[1.969s] running install_scripts
+[2.022s] Installing intent_cli script to 
+[2.024s] error: [Errno 2] No such file or directory: ''
+[2.082s] Invoked command in '/home/vk/ros2_ws/src/intent_engine' returned '1': PYTHONPATH=/home/vk/ros2_ws/src/intent_engine/build/intent_engine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vk/ros2_ws/src/intent_engine/install/intent_engine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/intent_engine build --build-base /home/vk/ros2_ws/src/intent_engine/build/intent_engine/build install --record /home/vk/ros2_ws/src/intent_engine/build/intent_engine/install.log --single-version-externally-managed install_data
