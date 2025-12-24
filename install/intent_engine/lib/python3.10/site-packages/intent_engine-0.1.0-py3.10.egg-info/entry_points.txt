@@ -1,0 +1,4 @@
+[console_scripts]
+intent_cli = intent_engine.cli:main
+intent_engine_node = intent_engine.intent_node:main
+

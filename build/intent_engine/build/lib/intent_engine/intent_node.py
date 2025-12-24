@@ -25,7 +25,6 @@ class IntentEngineNode(Node):
     def intent_callback(self, msg):
         try:
             data = json.loads(msg.data)
-            print(data)
             intent = IntentData(
                 id=data["id"],
                 type=data.get("type", "unknown"),
@@ -43,7 +42,6 @@ class IntentEngineNode(Node):
             # Arbitrate immediately
             winner = self.arbitrator.arbitrate(self.active_intents)
             if winner:
-                self.get_logger().debug(f"Winner object type: {type(winner)}")
                 cmd_msg = String()
                 cmd_msg.data = json.dumps({
                     "command": winner.id,
